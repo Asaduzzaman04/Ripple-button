@@ -36,15 +36,15 @@ body{
 }
 .ripple-btn::after {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: var(--ripY);
+    left: var(--ripX);
     content: '';
     transform: translate(-50%, -50%);
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     border-radius: 100%;
     background-color: #ebecee;
-    transition: .5s all ease-in-out;
+    transition: .3s all ease-in-out;
 }
 .ripple-btn:hover::after{
     width: 200px;
