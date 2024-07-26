@@ -47,8 +47,8 @@ body{
     transition: .3s all ease-in-out;
 }
 .ripple-btn:hover::after{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
 } 
 
 .btn-text{
